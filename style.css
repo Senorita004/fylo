@@ -1,0 +1,156 @@
+html{height:100%;}
+.container{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: hsl(217, 28%, 15%);
+  color:white;
+  padding-top:30px;
+}
+#nav-links{
+  padding:20px;
+}
+.nav-link{
+  color:white;
+  padding-right: 20px;
+  text-decoration:none;
+}
+main{
+  background-color:hsl(217, 28%, 15%);
+  text-align:center;
+  color: white;
+}
+#main-button{
+  background-color:  hsl(198, 60%, 50%);
+  padding-left: 100px;
+  padding-right:100px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  border-radius: 50px;
+  color:white;
+}
+#hill-text{
+  margin-top:-50px;
+}
+#hill-section{
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-color:hsl(217, 28%, 15%);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+  padding-top: 80px;
+}
+#description-boxes{
+  display:grid;
+  justify-content: center;
+  grid-template-columns: 500px 500px;
+  background-color:hsl(218, 28%, 13%);
+  padding: 50px;
+}
+.boxes{
+  margin-bottom:50px;
+}
+#productive{
+  background-color:hsl(218, 28%, 13%);
+  display:flex;
+  text-align:start;
+  padding:90px;
+}
+#productive-text{
+  padding-left:80px;
+  margin-top:120px;
+}
+#productive-link{
+  color:hsl(176, 68%, 64%);
+}
+#quote{
+  background-color:hsl(218, 28%, 13%); 
+  text-align: left;
+  padding-left: 180px;
+  padding-top: 80px;
+}
+#testimonials{
+  background-color:hsl(218, 28%, 13%);
+  display:flex;
+  justify-content: center;
+  padding:50px;
+  margin-top:-60px;
+  padding-bottom:350px;
+}
+.testimonial{
+  background-color: hsl(219, 30%, 18%);
+  margin-left:30px;
+  padding:10px;
+  height:200px;
+}
+.testimonial-text{
+  text-align: left;
+}
+.profile{
+  display:flex;
+  text-align: left;
+}
+.profile-image{
+  margin-top:25px;
+  padding-right: 10px;
+}
+.profile-image img{
+  border-radius: 50%;
+}
+.profile-text{
+  text-align:left;
+}
+#sign-up{
+  background-color:hsl(217, 28%, 15%);
+  margin-left: 100px;
+  margin-right:200px;
+  padding:25px;
+  margin-top: -300px;
+  text-align: center;
+  border-radius: 10px;
+}
+footer{
+  background-color:hsl(216, 53%, 9%);
+  padding-top: 200px;
+  padding-left:100px;
+  color: white;
+}
+.footer-top{
+  padding-top:50px;
+}
+#footer-summary{
+  padding-top:30px;
+  display:flex;
+  justify-content: space-around;
+}
+#footer-input{
+  padding:15px;
+  border-radius: 25px;
+  width: 500px;
+  margin-right:10px;
+}
+#footer-button{
+  padding:15px;
+  border-radius:25px;
+  background-color:hsl(176, 68%, 64%);
+  color:white;
+}
+.footer-leftpadding{
+  padding-left:10px;
+}
+.footer-topmargin{
+  margin-top: -15px;
+}
+.footer-all{
+  display:flex;
+}
+.social-media{
+  border-radius: 50%;
+}
